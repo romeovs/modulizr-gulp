@@ -1,0 +1,33 @@
+{
+  "name": "gulp-modulizr",
+  "version": "1.0.0",
+  "description": "a modulizr build that can be used by gulp",
+  "main": "build/index.js",
+  "dependencies": {
+    "event-stream": "^3.3.0",
+    "gulp-util": "^3.0.4",
+    "modernizr": "^3.0.0-alpha.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "babel src -d build",
+    "postinstall": "npm run compile",
+    "test": "mocha -r babelhook",
+    "coverage": "mocha -r babelhook -r blanket -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js",
+    "hcoverage": "mocha -r hook -R html-cov >| coverage.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romeovs/gulp-modulizr.git"
+  },
+  "keywords": [
+    "gulp",
+    "modulizr"
+  ],
+  "author": "Romeo Van Snick <romeovs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romeovs/gulp-modulizr/issues"
+  },
+  "homepage": "https://github.com/romeovs/gulp-modulizr"
+}
