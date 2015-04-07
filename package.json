@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile": "babel src -d build",
+    "compile": "babel src -d build -D",
     "postinstall": "npm run compile",
     "test": "mocha -r babelhook",
     "coverage": "mocha -r babelhook -r blanket -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js",

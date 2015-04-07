@@ -2,7 +2,7 @@ import modernizr from 'modernizr'
 import gutil     from 'gulp-util'
 import es        from 'event-stream'
 
-export default function(config) {
+var modulizr =function(config) {
   // extract filename
   var filename = config.filename || 'modernizr.js';
   delete config.filename;
@@ -24,3 +24,7 @@ export default function(config) {
     }
   });
 };
+
+modulizr.all = require('./modulizr.json');
+
+export default modulizr;
