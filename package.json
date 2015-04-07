@@ -8,7 +8,10 @@
     "gulp-util": "^3.0.4",
     "modernizr": "^3.0.0-alpha.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-core": "^5.0.10",
+    "chai": "^2.2.0"
+  },
   "scripts": {
     "compile": "babel src -d build -D",
     "postinstall": "npm run compile",
