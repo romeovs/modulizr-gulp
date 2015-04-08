@@ -1,8 +1,14 @@
 import chai from 'chai'
 import es         from 'event-stream'
 import modulizr   from '../src'
+import Lab    from 'lab'
 
-var expect = chai.expect;
+const expect = chai.expect;
+
+var lab      = Lab.script();
+var describe = lab.describe;
+var it       = lab.it;
+export { lab };
 
 var listTests = function(res) {
 
@@ -18,8 +24,6 @@ var listTests = function(res) {
 
   return tests;
 };
-
-
 
 describe('building', function() {
   it('should generate the correct output', function(done) {
