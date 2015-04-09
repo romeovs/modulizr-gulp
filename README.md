@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/romeovs/gulp-modulizr.svg)](https://travis-ci.org/romeovs/gulp-modulizr)
 [![Coverage Status](https://coveralls.io/repos/romeovs/gulp-modulizr/badge.svg?branch=master)](https://coveralls.io/r/romeovs/gulp-modulizr?branch=master)
+[![Dependencies](https://david-dm.org/romeovs/gulp-modulizr.svg)](https://david-dm.org/romeovs/gulp-modulizr)
 
 Simple modulizr builds for `gulp`.
 
