@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/romeovs/gulp-modulizr.svg)](https://travis-ci.org/romeovs/gulp-modulizr)
 [![Coverage Status](https://coveralls.io/repos/romeovs/gulp-modulizr/badge.svg?branch=master)](https://coveralls.io/r/romeovs/gulp-modulizr?branch=master)
 [![Dependencies](https://david-dm.org/romeovs/gulp-modulizr.svg)](https://david-dm.org/romeovs/gulp-modulizr)
+[![devDependencies](https://david-dm.org/romeovs/gulp-modulizr/dev-status.svg)](https://david-dm.org/romeovs/gulp-modulizr)
 [![Join the chat at https://gitter.im/romeovs/config](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/romeovs/gulp-modulizr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Simple modulizr builds for `gulp`.
