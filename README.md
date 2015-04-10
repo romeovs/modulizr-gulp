@@ -34,3 +34,5 @@ are also available as the `all` property on `gulp-modulizr`.
 This option defines the filename the eventual build file will have,
 defaults to `modernizr.js`.
 
+### License
+This code is licensed under the [ISC license](./LICENSE)
