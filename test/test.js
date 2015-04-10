@@ -1,7 +1,7 @@
-import chai from 'chai'
-import es         from 'event-stream'
-import modulizr   from '../src'
-import Lab    from 'lab'
+import chai     from 'chai'
+import es       from 'event-stream'
+import modulizr from '../src'
+import Lab      from 'lab'
 
 const expect = chai.expect;
 
