@@ -1,6 +1,6 @@
 {
   "name": "modulizr-gulp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a modulizr build that can be used by gulp",
   "main": "build/index.js",
   "dependencies": {
